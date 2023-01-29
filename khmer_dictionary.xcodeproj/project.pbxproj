@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C6048002984CEE300F45C37 /* home_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6047FF2984CEE300F45C37 /* home_screen.swift */; };
+		6C6048082984D05C00F45C37 /* book_mark_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6048072984D05C00F45C37 /* book_mark_screen.swift */; };
+		6C60480C2984D08E00F45C37 /* history_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C60480B2984D08E00F45C37 /* history_screen.swift */; };
 		6C6DB6A7298226A4007B13B4 /* khmer_dictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DB6A6298226A4007B13B4 /* khmer_dictionaryApp.swift */; };
 		6C6DB6A9298226A4007B13B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DB6A8298226A4007B13B4 /* ContentView.swift */; };
 		6C6DB6AB298226A6007B13B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6DB6AA298226A6007B13B4 /* Assets.xcassets */; };
@@ -14,6 +17,14 @@
 		6C6DB6B8298226A6007B13B4 /* khmer_dictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DB6B7298226A6007B13B4 /* khmer_dictionaryTests.swift */; };
 		6C6DB6C2298226A6007B13B4 /* khmer_dictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DB6C1298226A6007B13B4 /* khmer_dictionaryUITests.swift */; };
 		6C6DB6C4298226A6007B13B4 /* khmer_dictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DB6C3298226A6007B13B4 /* khmer_dictionaryUITestsLaunchTests.swift */; };
+		6CCCFBA5298619A8004FDD9A /* word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBA4298619A8004FDD9A /* word.swift */; };
+		6CCCFBA729861B36004FDD9A /* word_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBA629861B36004FDD9A /* word_list.swift */; };
+		6CCCFBAC29861E85004FDD9A /* definition_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBAB29861E85004FDD9A /* definition_screen.swift */; };
+		6CCCFBAE29862D54004FDD9A /* action_tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBAD29862D54004FDD9A /* action_tab.swift */; };
+		6CCCFBB22986369D004FDD9A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBB12986369D004FDD9A /* ShareViewController.swift */; };
+		6CCCFBB429864E45004FDD9A /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = 6CCCFBB329864E45004FDD9A /* database.json */; };
+		6CCCFBB729865BA6004FDD9A /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBB629865BA6004FDD9A /* json.swift */; };
+		6CCCFBB929865C64004FDD9A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCCFBB829865C64004FDD9A /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C6047FF2984CEE300F45C37 /* home_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_screen.swift; sourceTree = "<group>"; };
+		6C6048072984D05C00F45C37 /* book_mark_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book_mark_screen.swift; sourceTree = "<group>"; };
+		6C60480B2984D08E00F45C37 /* history_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history_screen.swift; sourceTree = "<group>"; };
 		6C6DB6A3298226A4007B13B4 /* khmer_dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = khmer_dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6DB6A6298226A4007B13B4 /* khmer_dictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khmer_dictionaryApp.swift; sourceTree = "<group>"; };
 		6C6DB6A8298226A4007B13B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,14 @@
 		6C6DB6BD298226A6007B13B4 /* khmer_dictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khmer_dictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6DB6C1298226A6007B13B4 /* khmer_dictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khmer_dictionaryUITests.swift; sourceTree = "<group>"; };
 		6C6DB6C3298226A6007B13B4 /* khmer_dictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khmer_dictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CCCFBA4298619A8004FDD9A /* word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word.swift; sourceTree = "<group>"; };
+		6CCCFBA629861B36004FDD9A /* word_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = word_list.swift; sourceTree = "<group>"; };
+		6CCCFBAB29861E85004FDD9A /* definition_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = definition_screen.swift; sourceTree = "<group>"; };
+		6CCCFBAD29862D54004FDD9A /* action_tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = action_tab.swift; sourceTree = "<group>"; };
+		6CCCFBB12986369D004FDD9A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		6CCCFBB329864E45004FDD9A /* database.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = database.json; sourceTree = "<group>"; };
+		6CCCFBB629865BA6004FDD9A /* json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		6CCCFBB829865C64004FDD9A /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C6048052984D03800F45C37 /* bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				6C6048062984D04300F45C37 /* components */,
+				6C6048072984D05C00F45C37 /* book_mark_screen.swift */,
+			);
+			path = bookmark;
+			sourceTree = "<group>";
+		};
+		6C6048062984D04300F45C37 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		6C6048092984D07700F45C37 /* history */ = {
+			isa = PBXGroup;
+			children = (
+				6C60480A2984D07F00F45C37 /* components */,
+				6C60480B2984D08E00F45C37 /* history_screen.swift */,
+			);
+			path = history;
+			sourceTree = "<group>";
+		};
+		6C60480A2984D07F00F45C37 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		6C6DB69A298226A4007B13B4 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +148,10 @@
 		6C6DB6A5298226A4007B13B4 /* khmer_dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				6CCCFBB329864E45004FDD9A /* database.json */,
+				6C6DB6D529822AC7007B13B4 /* service */,
+				6C6DB6D429822ABC007B13B4 /* util */,
+				6C6DB6D029822A5D007B13B4 /* screens */,
 				6C6DB6A6298226A4007B13B4 /* khmer_dictionaryApp.swift */,
 				6C6DB6A8298226A4007B13B4 /* ContentView.swift */,
 				6C6DB6AA298226A6007B13B4 /* Assets.xcassets */,
@@ -125,6 +183,85 @@
 				6C6DB6C3298226A6007B13B4 /* khmer_dictionaryUITestsLaunchTests.swift */,
 			);
 			path = khmer_dictionaryUITests;
+			sourceTree = "<group>";
+		};
+		6C6DB6D029822A5D007B13B4 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				6C6048092984D07700F45C37 /* history */,
+				6C6048052984D03800F45C37 /* bookmark */,
+				6C6DB6D229822A9A007B13B4 /* definition */,
+				6C6DB6D129822A8F007B13B4 /* home */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		6C6DB6D129822A8F007B13B4 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				6C6DB6D329822AA4007B13B4 /* components */,
+				6C6047FF2984CEE300F45C37 /* home_screen.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		6C6DB6D229822A9A007B13B4 /* definition */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCFBA829861E51004FDD9A /* components */,
+				6CCCFBAB29861E85004FDD9A /* definition_screen.swift */,
+			);
+			path = definition;
+			sourceTree = "<group>";
+		};
+		6C6DB6D329822AA4007B13B4 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		6C6DB6D429822ABC007B13B4 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCFBB12986369D004FDD9A /* ShareViewController.swift */,
+				6CCCFBB829865C64004FDD9A /* Util.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6C6DB6D529822AC7007B13B4 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCFBA32986198B004FDD9A /* data */,
+				6C6DB6D629822AD0007B13B4 /* model */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		6C6DB6D629822AD0007B13B4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCFBA4298619A8004FDD9A /* word.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6CCCFBA32986198B004FDD9A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCFBA629861B36004FDD9A /* word_list.swift */,
+				6CCCFBB629865BA6004FDD9A /* json.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		6CCCFBA829861E51004FDD9A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCFBAD29862D54004FDD9A /* action_tab.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C6DB6AE298226A6007B13B4 /* Preview Assets.xcassets in Resources */,
+				6CCCFBB429864E45004FDD9A /* database.json in Resources */,
 				6C6DB6AB298226A6007B13B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +395,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCCFBB729865BA6004FDD9A /* json.swift in Sources */,
+				6CCCFBAC29861E85004FDD9A /* definition_screen.swift in Sources */,
+				6C60480C2984D08E00F45C37 /* history_screen.swift in Sources */,
+				6CCCFBA729861B36004FDD9A /* word_list.swift in Sources */,
 				6C6DB6A9298226A4007B13B4 /* ContentView.swift in Sources */,
+				6CCCFBB22986369D004FDD9A /* ShareViewController.swift in Sources */,
+				6C6048082984D05C00F45C37 /* book_mark_screen.swift in Sources */,
+				6CCCFBB929865C64004FDD9A /* Util.swift in Sources */,
+				6C6048002984CEE300F45C37 /* home_screen.swift in Sources */,
 				6C6DB6A7298226A4007B13B4 /* khmer_dictionaryApp.swift in Sources */,
+				6CCCFBA5298619A8004FDD9A /* word.swift in Sources */,
+				6CCCFBAE29862D54004FDD9A /* action_tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
